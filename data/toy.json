@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "t103",
+        "name": "Avenger Nati",
+        "price": 0,
+        "labels": [
+            "Art",
+            "Puzzle",
+            "Battery Powered"
+        ],
+        "createdAt": 1673405375036,
+        "inStock": true
+    },
+    {
+        "_id": "t104",
+        "name": "Dubi Shubi",
+        "price": 124,
+        "labels": [
+            "On wheels",
+            "Baby",
+            "Outdoor"
+        ],
+        "createdAt": 1673405376036,
+        "inStock": false
+    },
+    {
+        "_id": "t102",
+        "name": "Mr. Halbany",
+        "price": 120,
+        "labels": [
+            "Baby",
+            "Puzzle",
+            "Battery Powered"
+        ],
+        "createdAt": 1673405374036,
+        "inStock": false
+    },
+    {
+        "_id": "t105",
+        "name": "Rani Shovevani",
+        "price": 65,
+        "labels": [
+            "Doll",
+            "Box game",
+            "Battery Powered"
+        ],
+        "createdAt": 1673405377036,
+        "inStock": true
+    }
+]
