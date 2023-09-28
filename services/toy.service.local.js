@@ -77,7 +77,7 @@ function remove(toyId) {
 // }
 
 function save(toy) {
-  console.log(toy)
+  // console.log(toy)
 
   if (toy._id) {
     const idx = toys.findIndex((currToy) => currToy._id === toy._id)
