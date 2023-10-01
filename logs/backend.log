@@ -777,3 +777,109 @@
 28.9.2023, 19:48:56 - INFO - Server is running on port: 3030
 28.9.2023, 19:49:49 - INFO - server.js loaded...
 28.9.2023, 19:49:49 - INFO - Server is running on port: 3030
+1.10.2023, 16:51:54 - INFO - server.js loaded...
+1.10.2023, 16:51:54 - INFO - Server is running on port: 3030
+1.10.2023, 16:55:36 - INFO - Req was made | /
+1.10.2023, 16:55:36 - INFO - Req was made | /
+1.10.2023, 16:55:40 - INFO - Req was made | /
+1.10.2023, 16:57:20 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 16:57:20 - ERROR - Failed to Login Error: Invalid username or password
+1.10.2023, 16:57:34 - INFO - Req was made | /
+1.10.2023, 16:57:34 - INFO - Req was made | /
+1.10.2023, 16:57:43 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 16:57:43 - ERROR - Failed to Login Error: Invalid username or password
+1.10.2023, 16:58:02 - INFO - Req was made | /
+1.10.2023, 16:58:37 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 16:58:37 - ERROR - Failed to Login Error: Invalid username or password
+1.10.2023, 16:58:55 - DEBUG - auth.service - signup with username: idodo, fullname: idodo
+1.10.2023, 16:58:55 - DEBUG - auth.route - new account created: {"username":"idodo","password":"$2b$10$jXebRil17Tj/B57s8jqySOCIecueCV79EQaX/6lliHkH4/W/yz.Mm","fullname":"idodo","score":0,"_id":"65197b1f7a1f0f70e20c0356"}
+1.10.2023, 16:58:55 - DEBUG - auth.service - login with username: idodo
+1.10.2023, 16:59:07 - DEBUG - auth.service - login with username: idodo
+1.10.2023, 16:59:07 - INFO - User login:  | {"_id":"65197b1f7a1f0f70e20c0356","username":"idodo","fullname":"idodo","score":0}
+1.10.2023, 17:00:44 - INFO - Req was made | /
+1.10.2023, 17:00:45 - INFO - Req was made | /
+1.10.2023, 17:00:51 - INFO - Req was made | /
+1.10.2023, 17:00:52 - INFO - Req was made | /
+1.10.2023, 17:00:56 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 17:00:56 - ERROR - Failed to Login Error: Invalid username or password
+1.10.2023, 17:01:22 - INFO - Req was made | /
+1.10.2023, 17:01:23 - INFO - Req was made | /
+1.10.2023, 17:02:19 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 17:02:19 - ERROR - Failed to Login Error: Invalid username or password
+1.10.2023, 17:03:38 - INFO - server.js loaded...
+1.10.2023, 17:03:38 - INFO - Server is running on port: 3030
+1.10.2023, 17:03:41 - INFO - server.js loaded...
+1.10.2023, 17:03:41 - INFO - Server is running on port: 3030
+1.10.2023, 17:03:45 - INFO - server.js loaded...
+1.10.2023, 17:03:45 - INFO - Server is running on port: 3030
+1.10.2023, 17:03:47 - INFO - server.js loaded...
+1.10.2023, 17:03:47 - INFO - Server is running on port: 3030
+1.10.2023, 17:03:48 - INFO - server.js loaded...
+1.10.2023, 17:03:48 - INFO - Server is running on port: 3030
+1.10.2023, 17:03:54 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 17:03:55 - ERROR - Failed to Login Error: Invalid username or password
+1.10.2023, 17:05:30 - INFO - server.js loaded...
+1.10.2023, 17:05:30 - INFO - Server is running on port: 3030
+1.10.2023, 17:05:38 - INFO - server.js loaded...
+1.10.2023, 17:05:38 - INFO - Server is running on port: 3030
+1.10.2023, 17:05:41 - INFO - server.js loaded...
+1.10.2023, 17:05:41 - INFO - Server is running on port: 3030
+1.10.2023, 17:05:44 - INFO - server.js loaded...
+1.10.2023, 17:05:44 - INFO - Server is running on port: 3030
+1.10.2023, 17:05:48 - INFO - server.js loaded...
+1.10.2023, 17:05:48 - INFO - Server is running on port: 3030
+1.10.2023, 17:06:01 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 17:06:01 - ERROR - Failed to Login Error: Invalid username or password
+1.10.2023, 17:06:46 - INFO - server.js loaded...
+1.10.2023, 17:06:46 - INFO - Server is running on port: 3030
+1.10.2023, 17:06:48 - INFO - server.js loaded...
+1.10.2023, 17:06:48 - INFO - Server is running on port: 3030
+1.10.2023, 17:06:49 - INFO - server.js loaded...
+1.10.2023, 17:06:49 - INFO - Server is running on port: 3030
+1.10.2023, 17:06:54 - INFO - server.js loaded...
+1.10.2023, 17:06:54 - INFO - Server is running on port: 3030
+1.10.2023, 17:06:55 - INFO - server.js loaded...
+1.10.2023, 17:06:55 - INFO - Server is running on port: 3030
+1.10.2023, 17:07:01 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 17:07:01 - DEBUG - user from service | {"_id":"651978723cf4e4e67f6133e0","fullname":"Ido Halbany","username":"Halbany","password":"1234","score":10000,"isAdmin":true}
+1.10.2023, 17:07:01 - ERROR - Failed to Login Error: Invalid username or password
+1.10.2023, 17:11:02 - INFO - server.js loaded...
+1.10.2023, 17:11:02 - INFO - Server is running on port: 3030
+1.10.2023, 17:11:08 - INFO - server.js loaded...
+1.10.2023, 17:11:08 - INFO - Server is running on port: 3030
+1.10.2023, 17:11:11 - INFO - server.js loaded...
+1.10.2023, 17:11:11 - INFO - Server is running on port: 3030
+1.10.2023, 17:11:18 - INFO - server.js loaded...
+1.10.2023, 17:11:18 - INFO - Server is running on port: 3030
+1.10.2023, 17:11:28 - INFO - server.js loaded...
+1.10.2023, 17:11:28 - INFO - Server is running on port: 3030
+1.10.2023, 17:11:34 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 17:11:34 - DEBUG - user from service | {"_id":"651978723cf4e4e67f6133e0","fullname":"Ido Halbany","username":"Halbany","password":"1234","score":10000,"isAdmin":true}
+1.10.2023, 17:11:34 - ERROR - Failed to Login Error: Invalid username or password, here is the problem
+1.10.2023, 17:15:55 - DEBUG - auth.service - login with username: Halbany
+1.10.2023, 17:15:55 - DEBUG - user from service | {"_id":"651978723cf4e4e67f6133e0","fullname":"Ido Halbany","username":"Halbany","password":"1234","score":10000,"isAdmin":true}
+1.10.2023, 17:15:55 - ERROR - Failed to Login Error: Invalid username or password, here is the problem
+1.10.2023, 17:17:03 - DEBUG - auth.service - signup with username: roy, fullname: roy c
+1.10.2023, 17:17:03 - DEBUG - auth.route - new account created: {"username":"roy","password":"$2b$10$sDKfVhyzCEBS5rHnJhsSqOPpn3D2gIrVOIIMakjOZ32t/gK0td7CO","fullname":"roy c","score":0,"_id":"65197f5f13f98075c81c389b"}
+1.10.2023, 17:17:03 - DEBUG - auth.service - login with username: roy
+1.10.2023, 17:17:03 - DEBUG - user from service | {"_id":"65197f5f13f98075c81c389b","username":"roy","password":"$2b$10$sDKfVhyzCEBS5rHnJhsSqOPpn3D2gIrVOIIMakjOZ32t/gK0td7CO","fullname":"roy c","score":0}
+1.10.2023, 17:17:30 - INFO - Req was made | /
+1.10.2023, 17:17:30 - INFO - Req was made | /
+1.10.2023, 17:17:31 - INFO - Req was made | /
+1.10.2023, 17:17:35 - INFO - Req was made | /
+1.10.2023, 17:32:31 - INFO - Req was made | /
+1.10.2023, 17:32:31 - INFO - Req was made | /
+1.10.2023, 17:32:32 - INFO - Req was made | /
+1.10.2023, 17:32:33 - INFO - Req was made | /
+1.10.2023, 17:32:47 - DEBUG - auth.service - signup with username: alfi, fullname: alfi
+1.10.2023, 17:32:48 - DEBUG - auth.route - new account created: {"username":"alfi","password":"$2b$10$JfzGQlPGG85zBvoOKC2F0ukiuvGKO932BfZfAM9Wf7hGUfVQU48Fy","fullname":"alfi","score":0,"_id":"6519831013f98075c81c389c"}
+1.10.2023, 17:32:48 - DEBUG - auth.service - login with username: alfi
+1.10.2023, 17:32:48 - DEBUG - user from service | {"_id":"6519831013f98075c81c389c","username":"alfi","password":"$2b$10$JfzGQlPGG85zBvoOKC2F0ukiuvGKO932BfZfAM9Wf7hGUfVQU48Fy","fullname":"alfi","score":0}
+1.10.2023, 17:37:58 - INFO - Req was made | /
+1.10.2023, 17:37:59 - INFO - Req was made | /
+1.10.2023, 17:38:00 - INFO - Req was made | /
+1.10.2023, 17:38:00 - INFO - Req was made | /
+1.10.2023, 17:38:13 - DEBUG - auth.service - signup with username: ron, fullname: roni1
+1.10.2023, 17:38:13 - DEBUG - auth.route - new account created: {"username":"ron","password":"$2b$10$xH10hSrQDFmvB.JK4IgMmuMXAT8gWspeaHI35QVNvb0e4tvItTjbW","fullname":"roni1","score":0,"_id":"6519845513f98075c81c389d"}
+1.10.2023, 17:38:13 - DEBUG - auth.service - login with username: ron
+1.10.2023, 17:38:13 - DEBUG - user from service | {"_id":"6519845513f98075c81c389d","username":"ron","password":"$2b$10$xH10hSrQDFmvB.JK4IgMmuMXAT8gWspeaHI35QVNvb0e4tvItTjbW","fullname":"roni1","score":0}
