@@ -12,7 +12,6 @@ export const toyService = {
 
 function query(filterBy = getDefaultFilter()) {
   let filteredToys = toys
-  console.log(toys)
   if (filterBy.name) {
     const regex = new RegExp(filterBy.name, 'i')
     filteredToys = filteredToys.filter((toy) => regex.test(toy.name))
@@ -62,22 +61,7 @@ function remove(toyId) {
   return _saveToysToFile()
 }
 
-// function save(toy) {
-//   console.log(toy)
-//   if (toy._id) {
-//     const toyToUpdate = toys.find((currToy) => currToy._id === toy._id)
-//     // if (toyToUpdate.owner._id !== loggedinUser._id) return Promise.reject('Not your toy')
-//   } else {
-//     toy._id = _makeId()
-//     // toy.owner = loggedinUser
-//     toys.push(toy)
-//   }
-
-//   return _saveToysToFile().then(() => toy)
-// }
-
 function save(toy) {
-  // console.log(toy)
 
   if (toy._id) {
     const idx = toys.findIndex((currToy) => currToy._id === toy._id)
@@ -109,7 +93,6 @@ function _saveToysToFile() {
       if (err) {
         return console.log(err)
       }
-      console.log('The file was saved!')
       resolve()
     })
   })

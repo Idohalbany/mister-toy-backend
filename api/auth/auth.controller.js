@@ -3,14 +3,11 @@ import { logger } from '../../services/logger.service.js'
 
 export async function login(req, res) {
   const { username, password } = req.body
-  console.log('auth.route - login with: ', username, password)
   try {
     const user = await authService.login(username, password)
     const loginToken = authService.getLoginToken(user)
-
     logger.info('User login: ', user)
-    res.cookie('loginToken', loginToken)
-
+    res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
     res.json(user)
   } catch (err) {
     logger.error('Failed to Login ' + err)
@@ -19,7 +16,6 @@ export async function login(req, res) {
 }
 
 export async function signup(req, res) {
-  console.log('req.body', req.body)
   try {
     const { username, password, fullname, score, isAdmin } = req.body
 
@@ -33,7 +29,7 @@ export async function signup(req, res) {
     const user = await authService.login(username, password)
     const loginToken = authService.getLoginToken(user)
 
-    res.cookie('loginToken', loginToken)
+    res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
     res.json(user)
   } catch (err) {
     logger.error('Failed to signup ' + err)

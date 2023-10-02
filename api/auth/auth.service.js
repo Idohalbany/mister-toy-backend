@@ -17,13 +17,13 @@ async function login(username, password) {
   logger.debug(`auth.service - login with username: ${username}`)
 
   const user = await userService.getByUsername(username)
-  logger.debug('user from service', user)
   if (!user) throw new Error('Invalid username or password')
 
   const match = await bcrypt.compare(password, user.password)
   if (!match) throw new Error('Invalid username or password, here is the problem')
 
   delete user.password
+  user._id = user._id.toString()
   return user
 }
 
@@ -38,7 +38,12 @@ async function signup(username, password, fullname, score, isAdmin) {
 }
 
 function getLoginToken(user) {
-  const userInfo = { _id: user._id, fullname: user.fullname, isAdmin: user.isAdmin }
+  const userInfo = {
+    _id: user._id,
+    fullname: user.fullname,
+    isAdmin: user.isAdmin,
+    score: user.score,
+  }
   return cryptr.encrypt(JSON.stringify(userInfo))
 }
 
